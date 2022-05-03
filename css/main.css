@@ -1,0 +1,81 @@
+:root {
+  --main-background-color: hsl(0, 0%, 98%);
+  --main-text-color: hsl(235, 19%, 35%);
+  --selected-text-color: hsl(220, 98%, 61%);
+  --accent-text-color: hsl(233, 11%, 84%);
+  --header-text-color: hsl(236, 9%, 61%);
+}
+
+body {
+    height: 100vh;
+    background-color: var(--main-background-color);
+}
+header {
+    height: 5rem;
+}
+
+main {
+    border: 1px solid red;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 1rem;
+    border: 1px solid grey;
+}
+
+#item-input, #list-filter {
+    height: 3rem;
+}
+
+label {
+    display: none;
+}
+
+input {
+    height: 2.6rem;
+    width: max-content;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul {
+    min-height: 20rem;
+    max-height: 35rem;
+    overflow: scroll;
+    border: 1px solid green;
+}
+
+div>p {
+    text-align: center;
+}
+
+#list-footer {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid orange;
+}
+
+
+
+
+
+
+
+.attribution {
+    height: 5rem;
+    font-size: 11px;
+    text-align: center;
+    border: 1px solid blue;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  footer {
+      display: none;
+  }
